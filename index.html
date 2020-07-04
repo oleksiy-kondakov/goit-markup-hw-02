@@ -13,15 +13,19 @@
 
   <body>
     <header>
-      <a href="./index.html">WebStudio</a>
-      <ul>
-        <li><a href="./index.html"> Студия </a></li>
-        <li><a href="./portfolio.html"> Портфолио </a></li>
-        <li><a href=""> Контакты </a></li>
-      </ul>
-      <ul>
+      <a class="logo-white" href="./index.html"
+        ><span class="logo-blue">Web</span>Studio</a
+      >
+      <ul class="nav-list">
+        <li><a class="nav-list-item" href="./index.html"> Студия </a></li>
         <li>
-          <a href="mailto:info@devstudio.com"
+          <a class="nav-list-item" href="./portfolio.html"> Портфолио </a>
+        </li>
+        <li><a class="nav-list-item" href=""> Контакты </a></li>
+      </ul>
+      <ul class="contacts-list">
+        <li>
+          <a class="contacts-list-item" href="mailto:info@devstudio.com"
             ><img
               src="./images/envelope.svg"
               alt="иконка письма"
@@ -29,7 +33,7 @@
           >
         </li>
         <li>
-          <a href="tel:+380961111111"
+          <a class="contacts-list-item" href="tel:+380961111111"
             ><img src="./images/smartphone.svg" alt="иконка смартфона" />+38 096
             111 11 11</a
           >
@@ -39,43 +43,43 @@
     <main>
       <!--Постер-->
       <section>
-        <h1>
+        <h1 class="main-header">
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <button>Заказать услугу</button>
+        <button class="hero-button">Заказать услугу</button>
       </section>
       <!--Возможности-->
       <section>
-        <ul>
+        <ul class="capabillity-list">
           <li>
             <img src="./images/antenna1.png" alt="иконка антенны" />
-            <h2>Внимание к деталям</h2>
-            <p>
+            <h2 class="capabillity-header">Внимание к деталям</h2>
+            <p class="capabillity-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции
             </p>
           </li>
           <li>
             <img src="./images/clock1.png" alt="иконка часов" />
-            <h2>Пунктуальность</h2>
-            <p>
+            <h2 class="capabillity-header">Пунктуальность</h2>
+            <p class="capabillity-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
             <img src="./images/diagram1.png" alt="иконка диаграммы" />
-            <h2>Планирование</h2>
-            <p>
+            <h2 class="capabillity-header">Планирование</h2>
+            <p class="capabillity-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
             <img src="./images/astronaut1.png" alt="иконка астронавта" />
-            <h2>Современные технологии</h2>
-            <p>
+            <h2 class="capabillity-header">Современные технологии</h2>
+            <p class="capabillity-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -84,8 +88,8 @@
       </section>
       <!--Чем мы занимаемся-->
       <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+        <h2 class="second-header">Чем мы занимаемся</h2>
+        <ul class="what-we-do-list">
           <li>
             <img
               src="./images/box1.jpg"
@@ -93,7 +97,7 @@
               width="370"
               height="294"
             />
-            <h3>Десктопные приложения</h3>
+            <h3 class="what-we-do-header">Десктопные приложения</h3>
           </li>
           <li>
             <img
@@ -102,7 +106,7 @@
               width="370"
               height="294"
             />
-            <h3>Мобильные приложения</h3>
+            <h3 class="what-we-do-header">Мобильные приложения</h3>
           </li>
           <li>
             <img
@@ -111,15 +115,15 @@
               width="370"
               height="294"
             />
-            <h3>Дизайнерские решения</h3>
+            <h3 class="what-we-do-header">Дизайнерские решения</h3>
           </li>
         </ul>
       </section>
       <!--Наша команда-->
       <section>
         <!--Этот заголовок будет скрыт в CSS-->
-        <h2 hidden>Наша команда</h2>
-        <ul>
+        <h2 class="second-header">Наша команда</h2>
+        <ul class="our-team-list">
           <li>
             <img
               src="./images/img-1.jpg"
@@ -127,8 +131,8 @@
               width="270"
               height="260"
             />
-            <h3>Николай Кучеренко</h3>
-            <p>Product Designer</p>
+            <h3 class="our-team-header">Николай Кучеренко</h3>
+            <p class="our-team-text">Product Designer</p>
             <ul>
               <li>
                 <a href="instagram"
@@ -159,8 +163,8 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Иванова</h3>
-            <p>Frontend Developer</p>
+            <h3 class="our-team-header">Ольга Иванова</h3>
+            <p class="our-team-text">Frontend Developer</p>
             <ul>
               <li>
                 <a href="instagram"
@@ -191,8 +195,8 @@
               width="270"
               height="260"
             />
-            <h3>Андрей Шевченко</h3>
-            <p>Marketing</p>
+            <h3 class="our-team-header">Андрей Шевченко</h3>
+            <p class="our-team-text">Marketing</p>
             <ul>
               <li>
                 <a href="instagram"
@@ -223,8 +227,8 @@
               width="270"
               height="260"
             />
-            <h3>Иван Николаев</h3>
-            <p>UI Designer</p>
+            <h3 class="our-team-header">Иван Николаев</h3>
+            <p class="our-team-text">UI Designer</p>
             <ul>
               <li>
                 <a href="instagram"
@@ -252,58 +256,72 @@
       </section>
       <!--Клиенты-->
       <section>
-        <h2>Постоянные клиенты</h2>
-        <ul>
+        <h2 class="second-header">Постоянные клиенты</h2>
+        <ul class="clients-list">
           <li>
-            <a href=""><img src="./images/logo2.svg" alt="лого компании" /></a>
+            <a class="clients-list-item" href=""
+              ><img src="./images/logo2.svg" alt="лого компании"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./images/logo1.svg" alt="лого компании" /></a>
+            <a class="clients-list-item" href=""
+              ><img src="./images/logo1.svg" alt="лого компании"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./images/logo3.svg" alt="лого компании" /></a>
+            <a class="clients-list-item" href=""
+              ><img src="./images/logo3.svg" alt="лого компании"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./images/logo4.svg" alt="лого компании" /></a>
+            <a class="clients-list-item" href=""
+              ><img src="./images/logo4.svg" alt="лого компании"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./images/logo5.svg" alt="лого компании" /></a>
+            <a class="clients-list-item" href=""
+              ><img src="./images/logo5.svg" alt="лого компании"
+            /></a>
           </li>
           <li>
-            <a href=""><img src="./images/logo6.svg" alt="лого компании" /></a>
+            <a class="clients-list-item" href=""
+              ><img src="./images/logo6.svg" alt="лого компании"
+            /></a>
           </li>
         </ul>
       </section>
     </main>
     <!--Футер-->
     <footer>
-      <a href="./index.html">WebStudio</a>
+      <a class="logo-black" href="./index.html"
+        ><span class="logo-blue">Web</span>Studio</a
+      >
       <address>
-        г. Киев, пр-т Леси Украинки, 26
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <span class="adress-text">г. Киев, пр-т Леси Украинки, 26</span>
+        <ul class="adress-list">
+          <li><a class="contacts-list-item href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="contacts-list-item" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
-      <p>Присоединяйтесь</p>
-      <ul>
+      <p class="social-links-footer">Присоединяйтесь</p>
+      <ul class="social-links-footer-list">
         <li>
-          <a href="instagram"
+          <a class="social-links-footer-item" href="instagram"
             ><img src="./images/instagram2.svg" alt="иконка инстаграма"
           /></a>
         </li>
         <li>
-          <a href="twitter"
+          <a class="social-links-footer-item" href="twitter"
             ><img src="./images/twitter1.svg" alt="иконка твиттера"
           /></a>
         </li>
         <li>
-          <a href="facebook"
+          <a class="social-links-footer-item" href="facebook"
             ><img src="./images/facebook1.svg" alt="иконка фейсбука" />
           </a>
         </li>
         <li>
-          <a href="linkedin"
+          <a class="social-links-footer-item" href="linkedin"
             ><img src="./images/linkedin1.svg" alt="иконка линкдина"
           /></a>
         </li>
